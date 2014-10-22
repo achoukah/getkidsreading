@@ -19,11 +19,11 @@
 .cta {
 	position: relative;
 	z-index: 100;
-	width: 200px;
-	height: 200px;
+	width: 160px;
+	height: 160px;
 	float: right;
-	right: 10px;
-	top: 340px;
+	right: 20px;
+	top: 370px;
 	border-radius: 50%;
 	box-shadow: 0 0 20px rgba(0,0,0,.4)
 	-moz-transition: all .2s ease-out;
@@ -40,16 +40,17 @@
 .bk-list {
 	list-style: none;
 	position: relative;
-	/*width: 288px;*/ /* 13 books * 40px + 13 books * margin (1px) */
-	width: 556px; 
+	width: 522px; /* 13 books * 40px + 13 books * margin (1px) */
 	margin: 0;
-	padding: 114px 0 0 90px;
+	padding: 114px 0 0 32px;
 	-webkit-perspective: 1800px;
 	-moz-perspective: 1800px;
 	perspective: 1800px;
 	-webkit-perspective-origin: 50% 15%;
 	-moz-perspective-origin: 50% 15%;
 	perspective-origin: 50% 15%;
+	position: relative;
+	left: 77px;
 }
 
 .bk-list li {
