@@ -86,9 +86,9 @@
 	-webkit-transform-origin: 0% 50%;
 	-moz-transform-origin: 0% 50%;
 	transform-origin: 0% 50%;
-	-webkit-transition: -webkit-transform 1.5s;
-	-moz-transition: -moz-transform 1.5s;
-	transition: transform 1.5s;
+	-webkit-transition: -webkit-transform .5s;
+	-moz-transition: -moz-transform .5s;
+	transition: transform .5s;
 	-webkit-transform: translate3d(0,0,20px);
 	-moz-transform: translate3d(0,0,20px);
 	transform: translate3d(0,0,20px);
@@ -351,219 +351,215 @@
 	user-select: none;
 }
 
-.bk-page nav {
-	display: block;
-	text-align: center;
-	margin-top: 20px;
-	position: relative;
-	z-index: 100;
-	cursor: pointer;
-}
+/* NAVIGATION */
 
-.bk-page nav span {
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	color: #aaa;
-	background: #f0f0f0;
-	border-radius: 50%;
-}
+	.bk-page nav {
+		display: block;
+		text-align: center;
+		margin: 340px 2px 0;
+		position: relative;
+		z-index: 100;
+		cursor: pointer;
+	}
+
+	.bk-page nav span {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		color: #fff;
+		background: #999;
+		border-radius: 50%;
+		margin: 4px;
+	}
 
 /* Individual style & artwork */
 
-/* Book 1 */
-.book-1 .bk-front > div,
-.book-1 .bk-back,
-.book-1 .bk-left,
-.book-1 .bk-front:after {
-	background-color: #dad5d1;
-}
+	/* Book 1 */
 
-.book-1 .bk-front, .book-1 .bk-cover {
-	background: #dad5d1;
-}
+		.book-1 .bk-front > div,
+		.book-1 .bk-back,
+		.book-1 .bk-left,
+		.book-1 .bk-front:after {
+			background-color: #dad5d1;
+		}
 
-.book-1 .bk-content p {
-	font-family: Georgia, Times, "Times New Roman", serif;
-}
+		.book-1 .bk-front, .book-1 .bk-cover {
+			background: #dad5d1;
+		}
 
-/* Book 2 */
+		.book-1 .bk-content p {
+			font-family: Georgia, Times, "Times New Roman", serif;
+		}
 
-.book-2 .bk-front > div,
-.book-2 .bk-back,
-.book-2 .bk-left,
-.book-2 .bk-front:after {
-	background-color: #97c4f9;
-}
+	/* Book 2 */
 
-.book-2 .bk-content p {
-	font-family: Arial, Helvetica, sans-serif;
-}
+		.book-2 .bk-front > div,
+		.book-2 .bk-back,
+		.book-2 .bk-left,
+		.book-2 .bk-front:after {
+			background-color: #97c4f9;
+		}
 
-.book-2 .bk-front, .book-2 .bk-cover {
-	background: #97c4f9;
-}
+		.book-2 .bk-content p {
+			font-family: Arial, Helvetica, sans-serif;
+		}
 
+		.book-2 .bk-front, .book-2 .bk-cover {
+			background: #97c4f9;
+		}
 
-/* Book 3 */
+	/* Book 3 */
 
-.book-3 .bk-front > div,
-.book-3 .bk-back,
-.book-3 .bk-left,
-.book-3 .bk-front:after {
-	background-color: #f23f32;
-}
+		.book-3 .bk-front > div,
+		.book-3 .bk-back,
+		.book-3 .bk-left,
+		.book-3 .bk-front:after {
+			background-color: #f23f32;
+		}
 
-.book-3 .bk-content p  {
-	font-family: Georgia, Times, "Times New Roman", serif;
-} 
+		.book-3 .bk-content p  {
+			font-family: Georgia, Times, "Times New Roman", serif;
+		} 
 
-.book-3 .bk-front, .book-3 .bk-cover {
-	background: #f23f32;
-}
+		.book-3 .bk-front, .book-3 .bk-cover {
+			background: #f23f32;
+		}
 
-/* Book 4 */
+	/* Book 4 */
 
-.book-4 .bk-front > div,
-.book-4 .bk-back,
-.book-4 .bk-left,
-.book-4 .bk-front:after {
-	background-color: #f3d575;
-}
+		.book-4 .bk-front > div,
+		.book-4 .bk-back,
+		.book-4 .bk-left,
+		.book-4 .bk-front:after {
+			background-color: #f3d575;
+		}
 
-.book-4 .bk-content p  {
-	font-family: Georgia, Times, "Times New Roman", serif;
-} 
+		.book-4 .bk-content p  {
+			font-family: Georgia, Times, "Times New Roman", serif;
+		} 
 
-.book-4 .bk-front, .book-4 .bk-cover {
-	background: #f3d575;
-}
+		.book-4 .bk-front, .book-4 .bk-cover {
+			background: #f3d575;
+		}
 
-
-/* BOOK 5 */ 
-
-
-.book-5 .bk-front > div,
-.book-5 .bk-back,
-.book-5 .bk-left,
-.book-5 .bk-front:after {
-	background-color: #fff58c;
-}
-
-.book-5 .bk-content p  {
-	font-family: Georgia, Times, "Times New Roman", serif;
-} 
-
-.book-5 .bk-front, .book-5 .bk-cover {
-	background: #fff58c;
-}
-
-/* BOOK 6 */
+	/* BOOK 5 */ 
 
 
-.book-6 .bk-front > div,
-.book-6 .bk-back,
-.book-6 .bk-left,
-.book-6 .bk-front:after {
-	background-color: #60c8ef;
-}
+		.book-5 .bk-front > div,
+		.book-5 .bk-back,
+		.book-5 .bk-left,
+		.book-5 .bk-front:after {
+			background-color: #fff58c;
+		}
 
-.book-6 .bk-content p  {
-	font-family: Georgia, Times, "Times New Roman", serif;
-} 
+		.book-5 .bk-content p  {
+			font-family: Georgia, Times, "Times New Roman", serif;
+		} 
 
-.book-6 .bk-front, .book-6 .bk-cover {
-	background: #60c8ef;
-}
+		.book-5 .bk-front, .book-5 .bk-cover {
+			background: #fff58c;
+		}
 
-
-
-/* BOOK 7 */
-
-.book-7 .bk-front > div,
-.book-7 .bk-back,
-.book-7 .bk-left,
-.book-7 .bk-front:after {
-	background-color: #FD6E8A;
-}
-
-.book-7 .bk-content p  {
-	font-family: Georgia, Times, "Times New Roman", serif;
-} 
-
-.book-7 .bk-front, .book-7 .bk-cover {
-	background: #FD6E8A;
-}
+	/* BOOK 6 */
 
 
+		.book-6 .bk-front > div,
+		.book-6 .bk-back,
+		.book-6 .bk-left,
+		.book-6 .bk-front:after {
+			background-color: #60c8ef;
+		}
 
-/* BOOK 8 */
+		.book-6 .bk-content p  {
+			font-family: Georgia, Times, "Times New Roman", serif;
+		} 
 
-.book-8 .bk-front > div,
-.book-8 .bk-back,
-.book-8 .bk-left,
-.book-8 .bk-front:after {
-	background-color: #A2122F;
-}
+		.book-6 .bk-front, .book-6 .bk-cover {
+			background: #60c8ef;
+		}
 
-.book-8 .bk-content p  {
-	font-family: Georgia, Times, "Times New Roman", serif;
-} 
+	/* BOOK 7 */
 
-.book-8 .bk-front, .book-8 .bk-cover {
-	background: #A2122F;
-}
+		.book-7 .bk-front > div,
+		.book-7 .bk-back,
+		.book-7 .bk-left,
+		.book-7 .bk-front:after {
+			background-color: #FD6E8A;
+		}
 
+		.book-7 .bk-content p  {
+			font-family: Georgia, Times, "Times New Roman", serif;
+		} 
 
-/* BOOK 9 */
+		.book-7 .bk-front, .book-7 .bk-cover {
+			background: #FD6E8A;
+		}
 
-.book-9 .bk-front > div,
-.book-9 .bk-back,
-.book-9 .bk-left,
-.book-9 .bk-front:after {
-	background-color: #439877;
-}
+	/* BOOK 8 */
 
-.book-9 .bk-content p  {
-	font-family: Georgia, Times, "Times New Roman", serif;
-} 
+		.book-8 .bk-front > div,
+		.book-8 .bk-back,
+		.book-8 .bk-left,
+		.book-8 .bk-front:after {
+			background-color: #A2122F;
+		}
 
-.book-9 .bk-front, .book-9 .bk-cover {
-	background: #439877;
-}
+		.book-8 .bk-content p  {
+			font-family: Georgia, Times, "Times New Roman", serif;
+		} 
 
-/* BOOK 10 */
+		.book-8 .bk-front, .book-8 .bk-cover {
+			background: #A2122F;
+		}
 
+	/* BOOK 9 */
 
-.book-10 .bk-front > div,
-.book-10 .bk-back,
-.book-10 .bk-left,
-.book-10 .bk-front:after {
-	background-color: #5E445D;
-}
+		.book-9 .bk-front > div,
+		.book-9 .bk-back,
+		.book-9 .bk-left,
+		.book-9 .bk-front:after {
+			background-color: #439877;
+		}
 
-.book-10 .bk-content p  {
-	font-family: Georgia, Times, "Times New Roman", serif;
-} 
+		.book-9 .bk-content p  {
+			font-family: Georgia, Times, "Times New Roman", serif;
+		} 
 
-.book-10 .bk-front, .book-10 .bk-cover {
-	background: #5E445D;
-}
+		.book-9 .bk-front, .book-9 .bk-cover {
+			background: #439877;
+		}
 
+	/* BOOK 10 */
 
-/* BOOK 11 */
+		.book-10 .bk-front > div,
+		.book-10 .bk-back,
+		.book-10 .bk-left,
+		.book-10 .bk-front:after {
+			background-color: #5E445D;
+		}
 
-.book-11 .bk-front > div,
-.book-11 .bk-back,
-.book-11 .bk-left,
-.book-11 .bk-front:after {
-	background-color: #A8936D;
-}
+		.book-10 .bk-content p  {
+			font-family: Georgia, Times, "Times New Roman", serif;
+		} 
 
-.book-11 .bk-content p  {
-	font-family: Georgia, Times, "Times New Roman", serif;
-} 
+		.book-10 .bk-front, .book-10 .bk-cover {
+			background: #5E445D;
+		}
 
-.book-11 .bk-front, .book-11 .bk-cover {
-	background: #A8936D;
-}
+	/* BOOK 11 */
+
+		.book-11 .bk-front > div,
+		.book-11 .bk-back,
+		.book-11 .bk-left,
+		.book-11 .bk-front:after {
+			background-color: #A8936D;
+		}
+
+		.book-11 .bk-content p  {
+			font-family: Georgia, Times, "Times New Roman", serif;
+		} 
+
+		.book-11 .bk-front, .book-11 .bk-cover {
+			background: #A8936D;
+		}
+
