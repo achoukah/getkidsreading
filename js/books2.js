@@ -54,8 +54,8 @@ var Books = (function() {
 
 			if( $content.length > 1 ) {
 
-				var $navPrev = $( '<span class="bk-page-prev">&lt;</span>' ),
-					$navNext = $( '<span class="bk-page-next">&gt;</span>' );
+				var $navPrev = $( '<span class="bk-page-prev"></span>' ),
+					$navNext = $( '<span class="bk-page-next"></span>' );
 				
 				$page.append( $( '<nav></nav>' ).append( $navPrev, $navNext ) );
 

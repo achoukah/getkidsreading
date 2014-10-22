@@ -3,10 +3,38 @@
   src: url('../fonts/AvenirNextLTPro-BoldCn.otf') format('opentype')
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.woff') format('woff'),
+       url('../fonts/icomoon.ttf') format('truetype');
+}
+
 .main {
 	width: 980px;
 	height: 550px;
 	background: url(../images/shelf-lge.jpg) top left no-repeat;
+	/*position: relative;*/
+}
+
+.cta {
+	position: relative;
+	z-index: 100;
+	width: 200px;
+	height: 200px;
+	float: right;
+	right: 10px;
+	top: 340px;
+	border-radius: 50%;
+	box-shadow: 0 0 20px rgba(0,0,0,.4)
+	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	-webkit-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+
+}
+
+.cta:hover {
+	margin-top: -8px;
 }
 
 .bk-list {
@@ -370,6 +398,22 @@
 		background: #999;
 		border-radius: 50%;
 		margin: 4px;
+	}
+
+	.bk-page-prev::after {
+		position: relative;
+		display: inline-block;
+		content: '\e60a';
+		font-family: 'icomoon';
+		position: relative;
+		top: 2px;
+	}
+
+	.bk-page-next::after {
+		content: '\e614';
+		font-family: 'icomoon';
+		position: relative;
+		top: 2px;
 	}
 
 /* Individual style & artwork */
